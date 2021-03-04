@@ -15,17 +15,17 @@ Today you’ll build out a project with one model and wire up that model using D
 ## Feature Tasks and Requirements
 
 ### Model
-- create snack_tracker_project project
+- [x] create snack_tracker_project project
   - This will involve some preliminary steps.
   - Review previous class lab for details.
-- create snacks app
-- Add snacks app to project
-- create **Snack** model
-  - make sure _it extends from proper base class_
-  - add _name_ as a CharField with maximum length of 64 characters.
-  - add _purchaser_ ForeignKey related to Django’s built in user model with CASCADE delete option.
-    - **from django.contrib.auth import get_user_model**
-  - add _description_ TextField
+- [x] create snacks app
+- [x] Add snacks app to project
+- [x] create **Snack** model
+  - [x] make sure _it extends from proper base class_
+  - [x] add _name_ as a CharField with maximum length of 64 characters.
+  - [x] add _purchaser_ ForeignKey related to Django’s built in user model with CASCADE delete option.
+    - [x] **from django.contrib.auth import get_user_model**
+    - [x] add _description_ TextField
 - add _model_ to admin
 - modify Snack model have user friendly display in admin
 - create migrations and migrate data
