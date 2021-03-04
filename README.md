@@ -16,8 +16,6 @@ Today you’ll build out a project with one model and wire up that model using D
 
 ### Model
 - [x] create snack_tracker_project project
-  - This will involve some preliminary steps.
-  - Review previous class lab for details.
 - [x] create snacks app
 - [x] Add snacks app to project
 - [x] create **Snack** model
@@ -31,9 +29,9 @@ Today you’ll build out a project with one model and wire up that model using D
 - [x] create migrations and migrate data
 - [x] create a super user
 - [x] run development server
-- Add a few snacks via Admin panel
-- create another user and more snacks via Admin panel
-- confirm that snacks behave as expected with proper name, purchaser and description.
+- [x] Add a few snacks via Admin panel
+- [x] create another user and more snacks via Admin panel
+- [x] confirm that snacks behave as expected with proper name, purchaser and description.
 
 ## Views for Snacks App
 Where to create these views?
