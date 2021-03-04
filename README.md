@@ -26,11 +26,11 @@ Today you’ll build out a project with one model and wire up that model using D
   - [x] add _purchaser_ ForeignKey related to Django’s built in user model with CASCADE delete option.
     - [x] **from django.contrib.auth import get_user_model**
     - [x] add _description_ TextField
-- add _model_ to admin
-- modify Snack model have user friendly display in admin
-- create migrations and migrate data
-- create a super user
-- run development server
+- [x] add _model_ to admin
+- [x] modify Snack model have user friendly display in admin
+- [x] create migrations and migrate data
+- [x] create a super user
+- [x] run development server
 - Add a few snacks via Admin panel
 - create another user and more snacks via Admin panel
 - confirm that snacks behave as expected with proper name, purchaser and description.
