@@ -35,10 +35,10 @@ Today you’ll build out a project with one model and wire up that model using D
 
 ## Views for Snacks App
 Where to create these views?
-- Dig around and see if there’s a sensible spot.
-- HINT There is one correct place for your app’s views.
-- create **SnackListView**
-  - extend **ListView**
+- [x] Dig around and see if there’s a sensible spot.
+- [x] HINT There is one correct place for your app’s views.
+- [x] create **SnackListView**
+  - extend **ListView** (SnackListView(ListView))
   - give a template of **snack_list.html**
   - associate **Snack** model
 - update url patterns for project
@@ -54,9 +54,9 @@ Where to create these views?
   - path would look like localhost:8000/1/ to get to snack with id of 1
 
 ## Templates
-- Add templates folder _in root_ of project
+- [x] Add templates folder _in root_ of project
   - register templates folder in project settings TEMPLATES section
-- create base.html ancestor template
+- [x] create base.html ancestor template
   - add main html document
   - use Django Templating Language to allow child templates to insert content
 - create snack_list.html template

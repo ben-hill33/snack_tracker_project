@@ -19,7 +19,3 @@ class Snacks(models.Model):
 
     def timestamp(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
-
-    # once view and template are set up for this, try this sumbitch
-    # def get_absolute_url(self):
-    #     return reverse("snack_detail", args=[str(self.id)])
